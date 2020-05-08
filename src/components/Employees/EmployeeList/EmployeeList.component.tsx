@@ -3,7 +3,7 @@ import React from "react";
 const EmployeeList = (props: { onClick: Function, employees: any }) => {
     return <>
         <div >
-            <button onClick={(event) => props.onClick(event)}> Call Get API</button>
+            <button onClick={(event) => props.onClick(event)} title="Call Get API"> Call Get API</button>
         </div>
         <div className="employees-list">
             {
